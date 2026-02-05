@@ -5,6 +5,5 @@ public class Wrappers {
 //         Integer b=new Integer(12); not valid now a days
         Integer b=Integer.valueOf("122");
         System.out.println(a==b);
-
     }
 }
