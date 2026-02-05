@@ -21,6 +21,10 @@ public class StringMethodsTest {
 //        System.out.println(s1);
 
         /* 3.----question */
-
+        String s="";
+        String s1="veed";
+        int s2=1;
+        String s3=s.concat(String.valueOf(s2));
+        System.out.println(s3);
     }
 }
