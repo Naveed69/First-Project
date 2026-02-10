@@ -26,7 +26,6 @@ public class Debugging {
             reverse=reverse*10+temp;
             a=a/10;
         }
-
         return reverse;
     }
 }
