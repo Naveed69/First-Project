@@ -1,4 +1,7 @@
+import java.lang.reflect.Field;
+
 public class Main{
+
     public static void main(String[] args){
     BankAccount obj1=new BankAccount();
 //    obj1.name="Naveed";
@@ -24,5 +27,13 @@ public class Main{
 //    System.out.println(obj3.name);
         obj3.setBalance(1);
         System.out.println(obj3.getBalance());
+
+        Class c= BankAccount.class;
+        for(Field f:c.getDeclaredFields()){
+            System.out.println(f);
+        }
+
+        ObjectMapper om=new ObjectMapper();
+        Trade[] trades=om.readValue()
     }
 }
