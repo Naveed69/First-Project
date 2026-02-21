@@ -34,6 +34,6 @@ public class Main{
         }
 
         ObjectMapper om=new ObjectMapper();
-        Trade[] trades=om.readValue()
+        Trade[] trades=om.readValue();
     }
 }
